@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+.bcg-style{
+  margin: -8px;
+  padding: 0;
+  background-image: url("http://img03.deviantart.net/1e8d/i/2011/259/e/8/queen_wallpaper_by_thegame95-d4a0yla.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.container-video{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.container-video h2{
+  font-size: 30px;
+  margin-top: -20px;
+  font-family: 'Rock Salt', sans-serif;
+  color:#BE8C29;
+}
+
+.container-video-items{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.container-video-items iframe {
+  width: 80%;
+  margin:10px;
+  border: 8px solid rgba(255,255,255,0.1);
+  margin-top: -10px;
+}
+
+.container-video-items p{
+  width: 90%;
+  margin: 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 860px) {
+  .container-video-items{
+    flex-direction: row;
+  }
+
+  .container-video h2{
+    font-size: 50px;
+  }
+
+  .container-video-items p{
+    font-size: 20px;
+    width: 50%;
+  }
+  .container-video-items iframe {
+    width: 50%;
+    margin:20px;
+    border: 15px solid rgba(255,255,255,0.1);
+  }
+
+ }
